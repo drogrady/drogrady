@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+
+<h1>Calculate your investment after a certain amt of time </h1>
+
+<button onclick="showHideCalc1()">Show Hide Calc1</button>
+
+<div id="showHide1">
+
+<p>
+Principal <input type="number" id="principal" value="1000">
+<br>
+Rate <input type="number" id="rate" value="0.07">
+<br>
+Years <input type="number" id="years" value="10">
+
+
+<button onclick="investCalc1()">Calculate</button>
+<p id="resultCalc1"></p>
+
+</div>
+
+
+
+<h1>Investment with money each year </h1>
+
+<button onclick="showHideCalc2()">Show Hide Calc2</button>
+
+<div id="showHide2">
+
+
+  
+
+<p>
+Principal <input type="number" id="principal2" value="1000">
+<br>
+Rate <input type="number" id="rate2" value="0.07">
+<br>
+Years <input type="number" id="years2" value="10">
+<br>
+Additional Amount <input type="number" id="additional2" value="10000">
+
+
+<button onclick="investCalc2()">Calculate</button>
+<p id="resultCalc2"></p>
+
+
+</div>
+
+</p>
+    <script src="Financial.js"></script>
+  </body>
+</html>
+
+
