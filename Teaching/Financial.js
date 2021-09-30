@@ -10,6 +10,7 @@ function investCalc1() {
   var results1_str = "";
 
   for (let counter = 0; counter < years; counter++) {
+	  //why is there a token error on the next line?
     let result1 = principal * ((growth) ** counter);
     console.log(typeof (result1));
     result1 = result1.toFixed(2); //Rounds to 2 decimal places
