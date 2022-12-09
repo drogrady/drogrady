@@ -2,7 +2,7 @@
     text-align: center;
     font-size: 50px;
     text-decoration: overline underline;
-    color: magenta;
+    color: rebeccapurple;
 }
 body {
     background-color: lightblue;
@@ -25,4 +25,12 @@ a:visited {
 }
 #Lablinks {
     color: black;
+}
+#coverphoto {
+    max-width: 100%;
+    vertical-align: middle;
+}
+#cover_photo {
+    max-width: 100%;
+    vertical-align: middle;
 }
