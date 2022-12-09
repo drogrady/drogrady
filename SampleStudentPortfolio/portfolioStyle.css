@@ -1,0 +1,12 @@
+.title {
+    text-align: center;
+    font-size: 50px;
+    text-decoration: overline underline;
+    color: magenta;
+}
+body {
+    background-color: lightblue;
+}
+nav a {
+    font-size: 24px;
+}
