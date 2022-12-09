@@ -10,3 +10,8 @@ body {
 nav a {
     font-size: 24px;
 }
+.artifact_image {
+    width: 200px;
+    border: thick double black;
+    height: 200px;
+}
