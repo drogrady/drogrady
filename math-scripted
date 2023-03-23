@@ -1,0 +1,25 @@
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
+
+### Dr. Huson's Math Sandbox
+
+Written in markdown, with a MathJax script header
+
+$$\sqrt{b^2-4ac}$$
+
+\[a^2+b^2=c^2\]
+
+In line math $\frac{2 \pi}{3}$ here
+
+$latex$
