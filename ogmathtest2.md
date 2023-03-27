@@ -1,5 +1,4 @@
-<html lang="en">
-<title>Notes on Euler's Identity</title>
+
 <script src="https://cdn.jsdelivr.net/npm/texme@1.2.2"></script>
 <textarea>
 
