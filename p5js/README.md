@@ -6,4 +6,7 @@ p5.js is a JavaScript library for creative coding, with a focus on making coding
 
 [Check out the official docs here](https://p5js.org/reference/).
 
+O'Grady's Projects
+[Link to Painting project](https://drogrady.net/p5js/index.html).
+
 
