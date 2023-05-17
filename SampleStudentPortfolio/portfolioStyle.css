@@ -23,9 +23,15 @@ a:hover {
 a:visited {
     color: red;
 }
+
 #Lablinks {
     color: black;
 }
+
+#Sketchlinks{
+	color:black;
+}
+
 #coverphoto {
     max-width: 100%;
     vertical-align: middle;
