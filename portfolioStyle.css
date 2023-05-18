@@ -1,0 +1,44 @@
+.title {
+    text-align: center;
+    font-size: 50px;
+    text-decoration: overline underline;
+    color: rebeccapurple;
+}
+body {
+    background-color: lightblue;
+}
+nav a {
+    font-size: 24px;
+}
+.artifact_image {
+    width: 200px;
+    border: thick double black;
+    height: 200px;
+}
+a:hover {
+    color: orange;
+    background-color: white;
+}
+
+/*
+a:visited {
+    color: red;
+}
+*/
+
+#Lablinks {
+    color: black;
+}
+
+#Sketchlinks{
+	color:black;
+}
+
+#coverphoto {
+    max-width: 100%;
+    vertical-align: middle;
+}
+#cover_photo {
+    max-width: 100%;
+    vertical-align: middle;
+}
