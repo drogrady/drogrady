@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Form Validation</title>
+<style>
+label {
+    display: block;
+}
+
+	input:invalid {
+  border: 2px solid red;
+}
+</style>
+</head>
+<script>
+    window.addEventListener("load", function() {
+      let form = document.querySelector("form");
+      form.addEventListener("submit", function(event) {
+        alert("submit clicked");
+      });
+    });
+  </script>
+<body>
+	
+	
+<form method="POST" action="https://handlers.education.launchcode.org/request-parrot">
+	
+  <label for="fname">First name:</label>
+  <input name="fname" type="text" required="required" id="fname" pattern="[a-m]{5}" title="name must be 5" maxlength="5">
+  <label for="pw">PW:</label>
+  <input name="pw" type="password" required="required" id="pw" placeholder="###" title="your pw"  maxlength="10">
+		
+		<label for="cheeseburgers">#Cheeseburgers</label><input name="cheeseburgers" type="number" id="cheeseburgers" max="10" min="1" step="1" value="1">
+		
+  <br>
+<input type="color">
+	<input name="slider" type="range" id="slider" max="4" min="1" step="1" value="2">
+	<input type="number">
+	
+	<input type="submit">
+</form>
+	
+	
+	
+<h1>example of GET Method</h1>
+<form method="GET" action="https://handlers.education.launchcode.org/request-parrot">
+  <label>Username
+    <input type="text" name="username">
+  </label>
+  <label>Team Name
+    <input type="text" name="team">
+  </label>
+  <label>Team Name2
+    <input type="text" name="team3" id="team3">
+  </label>
+  <button>Submit</button>
+</form>
+<hr>
+<h1>Example of POST Method</h1>
+<form method="POST" action="https://handlers.education.launchcode.org/request-parrot">
+  <label>Username
+    <input type="text" name="username">
+  </label>
+  <label>Team Name
+    <input type="text" name="team">
+  </label>
+  <label>Team Name2
+    <input type="text" name="team2">
+  </label>
+  <button>Submit</button>
+</form>
+<hr>
+<form>
+  
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  
+  <label for="html">HTML</label>
+  
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  
+  <label for="css">CSS</label>
+  <br>
+  
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  
+  <label for="javascript">JavaScript</label>
+  <button>Submit</button>
+</form>
+<hr>
+<form>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> I have a bike</label>
+  <br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> I have a car</label>
+  <br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> I have a boat</label>
+</form>
+<hr>
+<h1>OG example</h1>
+<form>
+  <label> Enter URL
+    <input name="url" type="url" required="required" id="url" title="enter url" autocomplete="off" value="www...">
+  </label>
+	<input type="submit">
+	
+</form>
+<h1>new ex</h1>
+<form>
+  <p>your email:
+    <input name="useremail" type="email" id="useremail">
+  </p>
+  <p>your password:
+    <input name="userpassword" type="password" id="userpassword">
+  </p>
+  <input type="submit">
+</form>
+<br>
+<hr>
+	
+<form>
+  <input name="useremail" type="email" id="useremail">
+  <input name="userpassword" type="password" id="userpassword">
+  <input type="submit">
+</form>
+	
+<p>Modify this form so that it also collects Middle Initial and Last Name
+  Change the size of the Middle Initial so that it appears to be much smaller</p>
+<form method="POST" action="https://handlers.education.launchcode.org/request-parrot">
+  <label>First Name:
+    <input name="firstname" type="text" id="first">
+  </label>
+  <label>Middle Initial:
+    <input name="middle" type="text" id="middle" size="1" maxlength="1">
+  </label>
+  <label>Last Name:
+    <input name="last" type="text" required="required" id="last">
+  </label>
+  <label>Email:
+    <input name="email" type="email" required="required" id="email">
+  </label>
+  <input type="url">
+  <input type="url">
+  <input type="datetime">
+  <input type="month">
+  <input type="date">
+  <button>Submit</button>
+</form>
+<p>Add a Form collects two "text" Fields: First Name and Last Name</p>
+<p>Add a Form Below which collects an email address and password. the password should appear as ****</p>
+<p>Add a Form which collects an email address and password. the password should appear as ****</p>
+</body>
+</html>
